@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Data Analysis Day 3: Data loading and tidying with tidyverse"
+title: "Reproducible Data Analysis Day 4: Data loading and tidying with tidyverse"
 format: gfm
 ---
 

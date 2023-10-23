@@ -1,4 +1,4 @@
-Reproducible Data Analysis Day 3: Data loading and tidying with
+Reproducible Data Analysis Day 4: Data loading and tidying with
 tidyverse
 ================
 
@@ -174,22 +174,22 @@ First provide the **name of the dataframe**, then the **column** to sort
 by:
 
 ``` r
-arrange(gapminder, pop)
+arrange(gapminder, lifeExp)
 ```
 
     # A tibble: 1,704 × 6
-       country               continent  year lifeExp   pop gdpPercap
-       <chr>                 <chr>     <dbl>   <dbl> <dbl>     <dbl>
-     1 Sao Tome and Principe Africa     1952    46.5 60011      880.
-     2 Sao Tome and Principe Africa     1957    48.9 61325      861.
-     3 Djibouti              Africa     1952    34.8 63149     2670.
-     4 Sao Tome and Principe Africa     1962    51.9 65345     1072.
-     5 Sao Tome and Principe Africa     1967    54.4 70787     1385.
-     6 Djibouti              Africa     1957    37.3 71851     2865.
-     7 Sao Tome and Principe Africa     1972    56.5 76595     1533.
-     8 Sao Tome and Principe Africa     1977    58.6 86796     1738.
-     9 Djibouti              Africa     1962    39.7 89898     3021.
-    10 Sao Tome and Principe Africa     1982    60.4 98593     1890.
+       country      continent  year lifeExp     pop gdpPercap
+       <chr>        <chr>     <dbl>   <dbl>   <dbl>     <dbl>
+     1 Rwanda       Africa     1992    23.6 7290203      737.
+     2 Afghanistan  Asia       1952    28.8 8425333      779.
+     3 Gambia       Africa     1952    30    284320      485.
+     4 Angola       Africa     1952    30.0 4232095     3521.
+     5 Sierra Leone Africa     1952    30.3 2143249      880.
+     6 Afghanistan  Asia       1957    30.3 9240934      821.
+     7 Cambodia     Asia       1977    31.2 6978607      525.
+     8 Mozambique   Africa     1952    31.3 6446316      469.
+     9 Sierra Leone Africa     1957    31.6 2295678     1004.
+    10 Burkina Faso Africa     1952    32.0 4469979      543.
     # ℹ 1,694 more rows
 
 The default setting is to sort from **small** to **large**. To sort in
