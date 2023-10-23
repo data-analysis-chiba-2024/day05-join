@@ -3,8 +3,8 @@
 # Name:
 
 
-# 1. Write code to load the "gapminder" dataset (note that you will
-# first need to copy the gapminder dataset to this project to load it):
+# 1. Write code to load the "gapminder" dataset (note that this repo comes
+# with the gapminder.csv file in the data_raw folder):
 
 
 # 2. What is the country with the highest GDP per capita (gdpPercap)?
