@@ -1,5 +1,5 @@
-# day04-tidy
+# day05-join
 
 Instructions for completing this assignment:
 
-Clone this repo, edit the code in [`day04_homework.R`](day04_homework.R), commit your changes, and push them to the remote.
+Clone this repo, edit the code in [`day05_homework.R`](day05_homework.R), commit your changes, and push them to the remote.
